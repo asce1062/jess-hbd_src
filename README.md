@@ -87,6 +87,6 @@ When you use a bitmap font, the order of the letters must be :
   
   have fun with the program!
   
-  #### PS: The music contained here i.e `DATA/song.xm` is one of my compositions, licensed under Creative Commons with Attributions. Please credit me if you use it for any non-commercial purposes. Else for commercial purposes don't hesitate to contact me.
+  #### PS: The music contained here i.e `DATA/song.xm` is one of my compositions, licensed under Creative Commons with Attribution. Please credit me if you use it for any non-commercial purposes. Else for commercial purposes, don't hesitate to contact me.
   
  /asce1062 
