@@ -4,30 +4,30 @@ This is an example app made with MASM32.
 ![song lyrics finder ui](https://github.com/asce1062/jess-hbd_src/raw/master/Capture.PNG) 
  
 <pre>
-                           _____  .__                     .___                              
-                          /  _  \ |  |   ____ ___  ___    |   | _____   _____   ___________ 
-                         /  /_\  \|  | _/ __ \\  \/  /    |   |/     \ /     \_/ __ \_  __ \
-                        /    |    \  |_\  ___/ >    <     |   |  Y Y  \  Y Y  \  ___/|  | \/
-                        \____|__  /____/\___  >__/\_ \ /\ |___|__|_|  /__|_|  /\___  >__|   
-                                \/          \/      \/ \/           \/      \/     \/       
+        _____  .__                     .___                              
+       /  _  \ |  |   ____ ___  ___    |   | _____   _____   ___________ 
+      /  /_\  \|  | _/ __ \\  \/  /    |   |/     \ /     \_/ __ \_  __ \
+     /    |    \  |_\  ___/ >    <     |   |  Y Y  \  Y Y  \  ___/|  | \/
+     \____|__  /____/\___  >__/\_ \ /\ |___|__|_|  /__|_|  /\___  >__|   
+             \/          \/      \/ \/           \/      \/     \/       
 </pre>
 
 <pre>
-                         █████╗ ██╗     ███████╗██╗  ██╗   ██╗███╗   ███╗███╗   ███╗███████╗██████╗ 
-                        ██╔══██╗██║     ██╔════╝╚██╗██╔╝   ██║████╗ ████║████╗ ████║██╔════╝██╔══██╗
-                        ███████║██║     █████╗   ╚███╔╝    ██║██╔████╔██║██╔████╔██║█████╗  ██████╔╝
-                        ██╔══██║██║     ██╔══╝   ██╔██╗    ██║██║╚██╔╝██║██║╚██╔╝██║██╔══╝  ██╔══██╗
-                        ██║  ██║███████╗███████╗██╔╝ ██╗██╗██║██║ ╚═╝ ██║██║ ╚═╝ ██║███████╗██║  ██║
-                        ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝     ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
+      █████╗ ██╗     ███████╗██╗  ██╗   ██╗███╗   ███╗███╗   ███╗███████╗██████╗ 
+     ██╔══██╗██║     ██╔════╝╚██╗██╔╝   ██║████╗ ████║████╗ ████║██╔════╝██╔══██╗
+     ███████║██║     █████╗   ╚███╔╝    ██║██╔████╔██║██╔████╔██║█████╗  ██████╔╝
+     ██╔══██║██║     ██╔══╝   ██╔██╗    ██║██║╚██╔╝██║██║╚██╔╝██║██╔══╝  ██╔══██╗
+     ██║  ██║███████╗███████╗██╔╝ ██╗██╗██║██║ ╚═╝ ██║██║ ╚═╝ ██║███████╗██║  ██║
+     ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝     ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
 </pre>
 
 <pre>
-                        .______  .___    ._______ ____   ____.___ ._____.___ ._____.___ ._______.______  
-                        :      \ |   |   : .____/ \   \_/   /: __|:         |:         |: .____/: __   \ 
-                        |   .   ||   |   | : _/\   \___ ___/ | : ||   \  /  ||   \  /  || : _/\ |  \____|
-                        |   :   ||   |/\ |   /  \  /   _   \ |   ||   |\/   ||   |\/   ||   /  \|   :  \ 
-                        |___|   ||   /  \|_.: __/ /___/ \___\|   ||___| |   ||___| |   ||_.: __/|   |___\
-                            |___||______/   :/               |___|      |___|      |___|   :/   |___|    
+     .______  .___    ._______ ____   ____.___ ._____.___ ._____.___ ._______.______  
+     :      \ |   |   : .____/ \   \_/   /: __|:         |:         |: .____/: __   \ 
+     |   .   ||   |   | : _/\   \___ ___/ | : ||   \  /  ||   \  /  || : _/\ |  \____|
+     |   :   ||   |/\ |   /  \  /   _   \ |   ||   |\/   ||   |\/   ||   /  \|   :  \ 
+     |___|   ||   /  \|_.: __/ /___/ \___\|   ||___| |   ||___| |   ||_.: __/|   |___\
+         |___||______/   :/               |___|      |___|      |___|   :/   |___|    
                                                                                  
 </pre> 
 
@@ -49,7 +49,7 @@ When you use a bitmap font, the order of the letters must be :
 	  " abcdefghijklmnopqrstuvwxyz ".
 	- In ascending hex value order from 0x20
 	  so : 0x20, 0x21, 0x22, 0x23.....
-	  or in ASCII : `" !"#$%&'"`
+	  or in ASCII : " !"#$%&' "
 	  this can go on as long as you like, even until 0xFFh.
 	- should be 8x8 or 16x16. in theory, any size is ok, but it 
 	  will look HORRIBLE
@@ -85,6 +85,6 @@ When you use a bitmap font, the order of the letters must be :
   
   have fun with the program!
   
-  #### PS: The music contained here i.e `DATA/song.xm` is one of my compositions, licensed under Creative Commons          with Attributions. Please credit me if you use it for any non-commercial purposes. Else for commercial          purposes don't hesitate to contact me.
+  #### PS: The music contained here i.e `DATA/song.xm` is one of my compositions, licensed under Creative Commons with Attributions. Please credit me if you use it for any non-commercial purposes. Else for commercial purposes don't hesitate to contact me.
   
  /asce1062 
