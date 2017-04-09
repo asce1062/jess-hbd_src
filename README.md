@@ -1,7 +1,9 @@
 # jess-hbd_src
-This is an example app made with MASM32.
+This is an example of an application made with MASM32.
 
-![song lyrics finder ui](https://github.com/asce1062/jess-hbd_src/raw/master/Capture.PNG) 
+![jess-hbd_src](https://github.com/asce1062/jess-hbd_src/raw/master/jess-hbd_src.PNG)
+
+[![jess-hbd_src](http://img.youtube.com/vi/Hhkeni5XBH0/0.jpg)](https://youtu.be/Hhkeni5XBH0)
  
 <pre>
         _____  .__                     .___                              
